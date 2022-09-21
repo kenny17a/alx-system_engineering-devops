@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 #configure a custom 404 page
 
 sudo apt-get update
 sudo apt-get -y install nginx
+=======
+# Configure Nginx server to give error 404 page
+apt-get update
+apt-get -y install nginx
+>>>>>>> 0afbc76e5a87c2325cb8d372af68d5f5baae5f94
 ufw allow 'Nginx HTTP'
 chmod -R 755 /var/www
 echo 'Hello World' > /var/www/html/index.html
@@ -28,6 +34,10 @@ new_config=\
 }
 "
 echo "Ceci n'est pas une page" > /var/www/html/404.html
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0afbc76e5a87c2325cb8d372af68d5f5baae5f94
 echo "$new_config" > /etc/nginx/sites-available/default
 
 if [ "$(pgrep nginx)" -le 0 ];
@@ -35,4 +45,8 @@ then
     service nginx start
 else
     service nginx restart
+<<<<<<< HEAD
 fi;
+=======
+fi;
+>>>>>>> 0afbc76e5a87c2325cb8d372af68d5f5baae5f94
