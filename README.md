@@ -23,7 +23,7 @@ All of the following folders are projects done during the studies:
 | [`0x0D-web_stack_debugging_0`](https://github.com/aysuarex/alx-system_engineering-devops/tree/master/0x0D-web_stack_debugging_0) | It aims to learn about how to debug a webstack |
 
 ## Author :
-* **[Suara Ayomide](https://twitter.com/Aysuarex)** <[Aysuarex](https://github.com/Aysuarex)>
+* **[Ibrahim kehinde](https://twitter.com/@omobolajiA1)** <[Kenny](https://github.com/kenny17a)>
 
 ## Acknowledgements :pray:
 
